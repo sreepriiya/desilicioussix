@@ -58,6 +58,7 @@ header .logo i{
 header .navbar {
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 header .navbar a{
@@ -165,6 +166,9 @@ header .icons a:hover{
     .navbar.active {
         display: flex; /* Show the navigation items when active */
     }
+}
+.order{
+    padding-top: 25px;
 }
 
 /* -------------------------------- SEARCH---------------------------------------- */
@@ -288,6 +292,7 @@ header .icons a:hover{
 
 /* Style for the specials section */
 .specials {
+    padding-top: 25px;
     background-color: #f9f9f9; /* Background color for the section */
     text-align: center;
     padding: 60px 10; /* Adjust the padding as needed */
@@ -459,6 +464,7 @@ footer{
 /* -------------------------------- MENU---------------------------------------- */
 
 .menu {
+    padding-top: 25px;
     background-color: #f9f9f9; /* Background color for the section */
     text-align: center;
     padding: 60px 10; /* Adjust the padding as needed */
